@@ -32,12 +32,12 @@ public class ToDoList{
         System.out.println("To Do List is empty!");
       }
       printMenu();
-      choice = sc.next();
+      choice = sc.nextLine();
       switch(choice){
         case "1":
           System.out.print("List all tasks by (D)ate or (P)roject?: ");
           do {
-            listChoice = sc.next();
+            listChoice = sc.nextLine();
             if (listChoice.equals("Q")) {
               break;
             }
@@ -55,9 +55,9 @@ public class ToDoList{
           break;
         case "2":
           System.out.print("Enter title: ");
-          title = sc.next();
+          title = sc.nextLine();
           System.out.print("Enter due date (e.g. 2019-09-25): ");
-          sDate = sc.next();
+          sDate = sc.nextLine();
 
           do {
             SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -67,7 +67,7 @@ public class ToDoList{
             else {
               System.out.print("Please enter date in a valid format (e.g. 2019-09-25) or (Q) "
                                  + "to Quit and return to main menu: ");
-              sDate = sc.next();
+              sDate = sc.nextLine();
             }
             if (sDate.equals("Q")) {
               break;
@@ -80,7 +80,7 @@ public class ToDoList{
           }
 
           System.out.print("Enter Project: ");
-          project = sc.next();
+          project = sc.nextLine();
           Task t = new Task(getNextTaskId(toDoList), title, dueDate, project);
           toDoList.add(t);
           System.out.println("Task successfully added to the list!");
@@ -88,7 +88,7 @@ public class ToDoList{
           break;
         case "3":
           System.out.print("Enter Id of the task you want to edit: ");
-          sTaskId = sc.next();
+          sTaskId = sc.nextLine();
           Task t1 = getTaskById(sTaskId, toDoList);
           if (t1 == null) {
             System.out.println("Task with that Id is not in the list!");
@@ -96,7 +96,7 @@ public class ToDoList{
           }
 
           System.out.print("Enter new title or press Enter (Return) to keep current one: ");
-          sc.nextLine();
+          //sc.nextLine();
           title = sc.nextLine();
           if (title.isEmpty()) {
             title = t1.getTitle();
@@ -139,7 +139,7 @@ public class ToDoList{
           break;
         case "4":
           System.out.print("Enter Id of the task you want to mark as done: ");
-          sTaskId = sc.next();
+          sTaskId = sc.nextLine();
           Task t2 = getTaskById(sTaskId, toDoList);
           if (t2 == null) {
             System.out.println("Task with that Id is not in the list!");
@@ -161,7 +161,7 @@ public class ToDoList{
           break;
         case "5":
           System.out.print("Enter Id of the task you want to remove from the list: ");
-          sTaskId = sc.next();
+          sTaskId = sc.nextLine();
           Task t3 = getTaskById(sTaskId, toDoList);
           if (t3 == null) {
             System.out.println("Task with that Id is not in the list!");
@@ -237,7 +237,7 @@ public class ToDoList{
       }
       else {
         System.out.print("Please enter existing task Id or (Q) to return to main menu: ");
-        sTaskId = sc.next();
+        sTaskId = sc.nextLine();
       }
       if (sTaskId.equals("Q")) {
         break;

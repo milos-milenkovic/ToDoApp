@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fb5fb4f-0037-434a-a331-41d92206662d" name="Default Changelist" comment="1-01">
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/batch-post-assessment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts-schemas/src/main/avro/Metadata.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts-schemas/src/main/avro/Recommendations.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts-schemas/src/main/avro/TrackGenres.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts-schemas/src/main/avro/TrackPlay.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts-schemas/src/main/protobuf/schemas.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/resources/core-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/resources/hdfs-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/ArtistsInEachCountry.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/DistinctUsersPerTrack.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/DummyJob.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/GetRecommendedArtists.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/GlobalTopArtist.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/GlobalTopArtistBQ.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/PlayCountPerArtist.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/PlayCountPerArtistBQ.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/PlayCountPerTrack.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/PopularPlaylists.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/StreamingSkeleton.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/TopArtistsPerCountry.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/main/scala/com/spotify/data/university/TopTracksPerArtist.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/ArtistsInEachCountryTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/DistinctUsersPerTrackTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/DummyJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/GetRecommendedArtistsTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/GlobalTopArtistBQTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/GlobalTopArtistTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/PlayCountPerArtistBQTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/PlayCountPerArtistTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/PlayCountPerTrackTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/PopularPlaylistsTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/StreamingAfterAllTriggerJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/StreamingAfterEachTriggerJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/StreamingAfterFirstTriggerJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/StreamingFixedWindowJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/StreamingSideInputJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/StreamingSlidingWindowJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/TopArtistsPerCountryTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/scala/com/spotify/data/university/TopTracksPerArtistTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/data-pipeline-concepts/src/test/test1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/project/scalapb.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/scalastyle-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/skeleton/student-prepreq-test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/Final.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/FullRecord.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/GroupBy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/Mapper1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/Mapper2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/Mapper3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/Reduce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/load_avro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/load_avro_filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/map_track_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/shuffle_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/shuffle_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/shuffle_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/shuffle_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/shuffle_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/shuffle_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/shuffle_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/shuffle_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/shuffle_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/sum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P01TrackPlayCount/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P03ArtistPlayCount/Part1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P03ArtistPlayCount/Part2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P03ArtistPlayCount/Part3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P03ArtistPlayCount/Part4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P03ArtistPlayCount/Part5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P03ArtistPlayCount/Part6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P03ArtistPlayCount/Part7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P05TopTracksPerArtist/Part1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P05TopTracksPerArtist/Part2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P07UniqueUsersPerTrack/Bad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P07UniqueUsersPerTrack/Good.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/P07UniqueUsersPerTrack/Job.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/Visual_SQL_JOINS_orig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/batch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/remark.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/main/avro/Metadata.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/main/avro/Recommendations.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/main/avro/TrackPlay.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/main/proto/schemas.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/main/scala/com/spotify/data/university/AvroTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/main/scala/com/spotify/data/university/BaseJob.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/main/scala/com/spotify/data/university/DummyJob.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/main/scala/com/spotify/data/university/SerializableUtils.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/main/scala/com/spotify/data/university/generate/GenerateTestData.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/skeleton/src/test/scala/com/spotify/data/datauniversity/DummyJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/slides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/slides2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/strapdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/strapdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/amelia.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/bootstrap-responsive.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/cerulean.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/cyborg.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/journal.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/readable.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/simplex.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/slate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/spacelab.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/spruce.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/superhero.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/common/strapdown/themes/united.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/bounded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/debug.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/dev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/fixed-time-windows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/fixed-window-side-input-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/homer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/pulsar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/rec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/session-windows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/sfi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/skew.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/sliding-time-windows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/system-lag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/victoria_falls.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/watermark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/windowing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/images/windowing_event_time.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/slides/streaming/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts-schemas/src/main/avro/Metadata.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts-schemas/src/main/avro/Recommendations.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts-schemas/src/main/avro/TrackGenres.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts-schemas/src/main/avro/TrackPlay.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts-schemas/src/main/protobuf/schemas.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/resources/core-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/resources/hdfs-site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/artist_play_count/P03ArtistPlayCountV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/artist_play_count/P03ArtistPlayCountV2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/artist_play_count/P03ArtistPlayCountV3.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/artist_play_count_bq/P07ArtistPlayCountV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/artists_in_country/P04ArtistsInCountryV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/artists_in_country/P04ArtistsInCountryV2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/artists_in_country/P04ArtistsInCountryV3.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/distinct_users_per_track/P09DistinctUsersPerTrackV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/distinct_users_per_track/P09DistinctUsersPerTrackV2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/distinct_users_per_track/P09DistinctUsersPerTrackV3.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/global_top_artist/P07GlobalTopArtistV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/global_top_artist/P07GlobalTopArtistV2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/global_top_artist_bigquery/P07GlobalTopArtistV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/global_top_artist_bigquery/P07GlobalTopArtistV2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/global_top_artist_bigquery/P07Tables.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/popular_playlists/P02PopularPlaylistsV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/recommended_artists/P08RecommendedArtistsV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/recommended_artists/P08RecommendedArtistsV2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/top_artists_per_country/P06TopArtistsPerCountryV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/top_tracks_per_artist/P05TopTracksPerArtistV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/track_play_count/P01TrackPlayCountV1.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/track_play_count/P01TrackPlayCountV2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/track_play_count/P01TrackPlayCountV3.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/track_play_count/P01TrackPlayCountV4.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/batch/track_play_count/P01TrackPlayCountV5.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/generate/GenerateData.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/AfterAllTriggerJob.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/AfterEachTriggerJob.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/AfterFirstTriggerJob.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/CountGenres.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/CountGenresUnbounded.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/Model.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/RefreshSideInputStreamJob.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/SideInputRandomizer.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/SlidingWindowJob.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/TopGenresByCountryJob.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/main/scala/com/spotify/data/university/streaming/TriggerAllowLateness.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/DummyJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P01TrackPlayCountTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P02PopularPlaylistsTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P03ArtistPlayCountTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P04ArtistsInCountryTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P05TopTracksPerArtistTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P06TopArtistsPerCountryTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P07GlobalTopArtistBigQueryTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P07GlobalTopArtistTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P08RecommendedArtistsTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/batch/P09DistinctUsersPerTrackTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/AfterAllTriggerJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/AfterEachTriggerJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/AfterFirstTriggerJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/CountGenresTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/CountGenresUnboundedTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/FixedWindowWithCompositeTrigger.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/FixedWindowWithCompositeTrigger2.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/FixedWindowWithDefaultTrigger.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/FixedWindowWithDefaultTriggerAndLateness.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/FixedWindowWithProcessingTimeTrigger.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/RefreshSideInputStreamJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/SessionWindowTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/SlidingWindowJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/TopGenresByCountryJobTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/scala/com/spotify/data/university/streaming/TriggerAllowLatenessTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/data-pipeline-concepts/src/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/project/plugins.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/project/scalapb.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/solutions/scalastyle-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DataProcessingInScio/stream-post-assessment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/src/main/scala/classwork/advanced/P01Implicits.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/src/main/scala/classwork/advanced/P02Lambdas.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/src/main/scala/classwork/beginner/P01Collections.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/src/main/scala/classwork/beginner/P02WordCount.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/src/main/scala/classwork/beginner/P03Inheritance.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/src/main/scala/classwork/beginner/alice.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/src/main/scala/prework/1-basics.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/src/main/scala/prework/2-basics-continued.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/skeleton/src/main/scala/prework/3-collections.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/collections.immutable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/collections.mutable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/collections.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/import_project_dialog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/import_project_dialog_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/indexed_seq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/legend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/linear_seq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/map.mutable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/sbt_projects_to_import.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/scala_type_hierarchy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/scala_type_hierarchy_full.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/images/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/slides/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/project/build.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/classwork/advanced/CaseClassTest.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/classwork/advanced/P00OverviewAdvanced.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/classwork/advanced/P01Implicits.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/classwork/advanced/P02Lambdas.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/classwork/beginner/P00OverviewBasic.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/classwork/beginner/P01Collections.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/classwork/beginner/P02WordCount.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/classwork/beginner/P03Inheritance.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/prework/1-basics.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/prework/2-basics-continued.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalaForDataEng/solutions/src/main/scala/prework/3-collections.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/du-logo-bw-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/du-logo-wb-30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../images/du-logo-wb-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sp-bootstrap.css" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ToDoApp$ToDoList.ic" NAME="ToDoList Coverage Results" MODIFIED="1570018773829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="173" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2122948638">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="4965" />
+          <entry key="txt" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4965" />
+          <entry key="PLAIN_TEXT" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ToDoList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#8310#8316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sc.next</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Task.java" />
+        <option value="$PROJECT_DIR$/src/ToDoList.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1485" />
+    <option name="y" value="43" />
+    <option name="width" value="1264" />
+    <option name="height" value="844" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ToDoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToDoApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ToDoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ToDoApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570311420136" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="ToDoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ToDoList" />
+      <module name="ToDoApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ToDoList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../DataProcessingInScio/skeleton" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../data-university-milosm" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../di-golden-path-pipeline-milosm" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fb5fb4f-0037-434a-a331-41d92206662d" name="Default Changelist" comment="" />
+      <created>1569963706554</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569963706554</updated>
+      <workItem from="1569963709748" duration="46435000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46435000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1485" y="43" width="1264" height="844" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15466449" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32978722" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2805851" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39893618" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32978722" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="SciView" weight="0.32978722" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8310#8316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
