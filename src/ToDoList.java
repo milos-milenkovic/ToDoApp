@@ -85,6 +85,7 @@ public class ToDoList{
           toDoList.add(t);
           System.out.println("Task successfully added to the list!");
           System.out.println();
+          pressEnterToContinue();
           break;
         case "3":
           System.out.print("Enter Id of the task you want to edit: ");
