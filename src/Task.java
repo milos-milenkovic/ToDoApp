@@ -1,7 +1,8 @@
+import java.io.Serializable;
 import java.util.*;
 import java.text.SimpleDateFormat;
 
-public class Task {
+public class Task implements Serializable {
   private int id;
   private String title;
   private Date dueDate;

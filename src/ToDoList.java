@@ -7,7 +7,7 @@ public class ToDoList{
 
   public static void main(String[] args) throws ParseException{
     System.out.println("*** Welcome to 2Doist ***");
-    ArrayList<Task> toDoList = readFromFileIntoList("taskList.txt");
+    ArrayList<Task> toDoList = (ArrayList<Task>) readFromFileIntoList2("taskList.txt");
     // create a scanner so we can read the command-line input
     Scanner sc = new Scanner(System.in);
     String choice;
@@ -171,7 +171,7 @@ public class ToDoList{
           System.out.println("Task was successfully removed from the list!");
           break;
         case "6":
-          writeToFile("taskList.txt", toDoList);
+          writeToFile2("taskList.txt", toDoList);
           System.out.println("Bye bye!");
           break;
         default:
@@ -295,6 +295,30 @@ public class ToDoList{
     return list;
   }
 
+  private static ArrayList readFromFileIntoList2(String fileName) {
+    ArrayList list = new ArrayList();
+    try
+    {
+      FileInputStream fis = new FileInputStream(fileName);
+      ObjectInputStream ois = new ObjectInputStream(fis);
+
+      list = (ArrayList) ois.readObject();
+
+      ois.close();
+      fis.close();
+    }
+    catch (IOException ioe)
+    {
+      ioe.printStackTrace();
+    }
+    catch (ClassNotFoundException c)
+    {
+      System.out.println("Class not found");
+      c.printStackTrace();
+    }
+    return list;
+  }
+
   private static void writeToFile(String fileName, ArrayList list) {
     BufferedWriter output = null;
     try {
@@ -318,6 +342,21 @@ public class ToDoList{
           System.out.println("Couldn't close connection to file!");
         }
       }
+    }
+  }
+
+  private static  void writeToFile2(String fileName, ArrayList list) {
+    try
+    {
+      FileOutputStream fos = new FileOutputStream(fileName);
+      ObjectOutputStream oos = new ObjectOutputStream(fos);
+      oos.writeObject(list);
+      oos.close();
+      fos.close();
+    }
+    catch (IOException ioe)
+    {
+      ioe.printStackTrace();
     }
   }
 
